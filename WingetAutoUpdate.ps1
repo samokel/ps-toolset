@@ -8,6 +8,6 @@ if (Get-Module WingetTools) {
 
 # winget list
 Get-WGPackage #-ID *
-Get-WGUpgrade -
+Get-WGUpgrade
 
 (Get-WGInstalled <#-Source winget#>).count | gm
